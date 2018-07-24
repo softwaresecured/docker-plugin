@@ -52,8 +52,10 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+import org.kohsuke.stapler.export.ExportedBean;
 
 
+@ExportedBean
 public class DockerTemplate implements Describable<DockerTemplate> {
     private static final Logger LOGGER = LoggerFactory.getLogger(DockerTemplate.class.getName());
 
